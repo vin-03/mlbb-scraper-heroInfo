@@ -1,0 +1,24 @@
+{
+  "name": "mlbb-scraper-heroinfo",
+  "version": "1.0.0",
+  "description": "A Puppeteer-based web scraper that extracts basic hero information from Mobile Legends: Bang Bang sources. Collects essential hero metadata including ID, name, role, lane assignments, and icon URLs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vin-03/mlbb-scraper-heroInfo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/vin-03/mlbb-scraper-heroInfo/issues"
+  },
+  "homepage": "https://github.com/vin-03/mlbb-scraper-heroInfo#readme",
+  "dependencies": {
+    "puppeteer": "^24.11.2"
+  }
+}

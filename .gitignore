@@ -1,0 +1,29 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# dotenv environment variables
+.env
+
+# Puppeteer Chromium downloads
+.chromium/
+
+# VSCode settings
+.vscode/
+
+# Output files
+*.out
+*.tmp
+
+# Coverage directory
+coverage/
