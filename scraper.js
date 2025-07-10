@@ -1,5 +1,6 @@
 const puppeteer = require('puppeteer');
 const sleep = require('./utils');
+const fs = require('fs');
 
 async function scrapeHero(page, heroId) {
     const url = `https://m.mobilelegends.com/hero/detail?channelid=3054554&heroid=${heroId}`;
@@ -149,9 +150,10 @@ async function scrapeMultiple(idFrom, idTo) {
     }
 
     console.log(JSON.stringify(heroes, null, 2));
+    fs.writeFileSync('./data/heroes.json', JSON.stringify(heroes, null, 2))
 
     await browser.close();
 }
 
-scrapeMultiple(10, 15)
+scrapeMultiple(1, 129)
 
