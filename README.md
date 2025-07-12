@@ -2,7 +2,7 @@
 
 A Puppeteer-based web scraper that extracts structured hero data from Mobile Legends: Bang Bang sources.
 
-## 📋 Description
+## Description
 
 This script collects essential hero metadata including:
 - Hero ID  
@@ -13,13 +13,13 @@ This script collects essential hero metadata including:
 
 The data are saved in a json file and they are ready for use in other tools, such as mlbb draft assistants or analysis.
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - Node.js  
 - Puppeteer  
 - JavaScript
   
-## 🚀 How to Run
+## How to Run
 
 1. Clone this repository  
 2. Install dependencies:  
